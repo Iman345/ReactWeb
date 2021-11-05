@@ -1,0 +1,102 @@
+h1.heading {
+    font-size: 60px;
+    text-align: center;
+    
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+p.heading.p__color {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+.theory-box {
+    border-radius: 10px;
+    width: 100%;
+    
+    background-color: #fcc6f0;
+    padding: 55px;
+    transition: .4s ease;
+    cursor:initial;
+    
+}
+.more {
+    background-color: white;
+    padding-top: 5px;
+    padding: 12px 35px;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    color:
+    #fd7094;
+    transition: .4s ease;
+}
+.more:hover{
+    background-color: #ffb7d3;
+    border: 2px solid #fd7094;
+    cursor:pointer;
+}
+button.btn {
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 12px;
+    border: 2px solid #fd7094;
+    background-color: #fd7094;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s all ease;
+}
+.theory-box:hover {
+    transform: translateY(5px);
+    background-image: linear-gradient( 
+90deg,#7ccbf8,#fd96bd);
+}
+.theory-box:hover .icon{
+    color: #fff;
+}
+.theory-box:hover p.theory-text.p__color{
+    color: #fff;
+}
+
+.icon {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #8100f9;
+}
+p.theory-text.p__color {
+    margin-bottom: 0;
+}
+h1.theory-text {
+    font-size: 19px;
+   
+    padding: 10px 0px;
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+.theory-box {
+    padding: 32px;
+}
+
+.more{
+
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 200;
+}
+h1.heading {
+    font-size: 40px;
+    text-align: center;
+    
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+}
+
+
+
